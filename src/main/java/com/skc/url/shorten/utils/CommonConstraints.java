@@ -15,9 +15,13 @@ public class CommonConstraints {
 	 * Mongo Constraints
 	 * */
 	
-	public static final String DEFAULT_HOST="localhost";
+	//public static final String DEFAULT_HOST="localhost";
+	//public static final Integer DEFAULT_PORT=27017;
+	public static final String DEFAULT_HOST="127.10.219.2";
 	public static final Integer DEFAULT_PORT=27017;
-	public static final String DATABASE_NAME="UrlShorten";
+	
+	//public static final String DATABASE_NAME="UrlShorten";
+	public static final String DATABASE_NAME="urlshort";
 	public static final String DB_COLLECTIONS_URL="url_data";
 	public static final String DB_COLLECTION_USER = "user_collection";
 	
